@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Movies</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="formulario">
+		<h2>Buscar pelicula en MovieDB</h2>
+		<input type="text" id="busqueda" placeholder="Busqueda">
+		<button id="enviar">Buscar</button>
+	</div>
+	<div class="resultados">
+		<h3>Resultados: <span id="cantidad"></span> Página: <span id="current_page"></span> de <span id="total_pages"></span></h3>
+			<div class="lista">
+				
+			</div>
+			<div class="modal_menu">
+				<button id="prev" class="pagination">< Prev</button>
+				<button id="aceptar">Aceptar</button>
+				<button id="next" class="pagination">Next ></button>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+	</html>
